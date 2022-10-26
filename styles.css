@@ -1,0 +1,47 @@
+*{
+    background-color: #D8D7FE;
+    box-sizing: border-box;
+    font-family: 'Reem Kufi Ink';
+  }
+
+  body {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+  }
+  nav {
+    background-color:olivedrab;
+    height: 100vw;
+    width: 15%;
+  }
+
+  .nav-tab, .player-header, .player-wins, .reset-button {
+    background-color:olivedrab;
+  }
+
+  header {
+
+  }
+
+  .hamburger-button {
+    height: 3vw;
+    width: 3vw;
+  }
+
+  .hamburger-button:hover {
+    cursor: pointer;
+  }
+
+  .searchbar {
+    height: 3vw;
+    width: 50vw;
+  }
+
+  .home-container {
+    width: 75%;
+    background-color:salmon;
+  }
+  
+  .hidden {
+    display: none;
+  }
