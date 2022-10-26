@@ -9,32 +9,71 @@
     flex-direction: row;
     margin: 0;
   }
+
   nav {
     background-color:olivedrab;
     height: 100vw;
     width: 15%;
   }
 
-  .nav-tab, .player-header, .player-wins, .reset-button {
+  .team-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .team-logo {
+    margin-top: 2vw;
+    height: 10vw;
+    width: 10vw;
+    border-radius: 10vw;
+  }
+
+  .nav-tab {
+    border-top-style: solid;
+    border-top-width: .2vw;
+    border-top-color:seagreen;
+  }
+
+  .nav-tab, .tab-header, .tab-line, .reset-button, .team-tab, .team-name {
     background-color:olivedrab;
   }
 
   header {
-
+    display: flex;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: .2vw;
+    border-bottom-color: #000000;
   }
 
-  .hamburger-button {
+  .icon-container {
+    height: 6vw;
+    width: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    border-style: solid;
+    border-width: .2vw;
+    border-color: #000000;
+  }
+
+  .hamburger, .tickets, .lotteries, .options {
     height: 3vw;
     width: 3vw;
   }
 
-  .hamburger-button:hover {
+  .icon-container, .hamburger:hover, .tickets:hover, .lotteries:hover, .options:hover {
     cursor: pointer;
   }
 
+
+
   .searchbar {
-    height: 3vw;
-    width: 50vw;
+    height: 6vw;
+    width: 60vw;
   }
 
   .home-container {
