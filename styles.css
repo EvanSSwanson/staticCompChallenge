@@ -1,7 +1,7 @@
 *{
-    background-color: #D8D7FE;
+    background-color: #FAF5E5;
     box-sizing: border-box;
-    font-family: 'Reem Kufi Ink';
+    font-family: 'DM Serif Display';
   }
 
   body {
@@ -11,9 +11,14 @@
   }
 
   nav {
-    background-color:olivedrab;
+    background-color:#332E2E;
     height: 100vw;
     width: 15%;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column;
   }
 
   .team-tab {
@@ -33,19 +38,21 @@
   .nav-tab {
     border-top-style: solid;
     border-top-width: .2vw;
-    border-top-color:seagreen;
+    border-top-color:#000000;
   }
 
   .nav-tab, .tab-header, .tab-line, .reset-button, .team-tab, .team-name {
-    background-color:olivedrab;
+    background-color:#332E2E;
+    color :#FAF5E5;
   }
 
   header {
     display: flex;
     align-items: center;
     border-bottom-style: solid;
-    border-bottom-width: .2vw;
+    border-bottom-width: 1vw;
     border-bottom-color: #000000;
+    margin-bottom: 0;
   }
 
   .icon-container {
@@ -69,16 +76,112 @@
     cursor: pointer;
   }
 
-
-
   .searchbar {
     height: 6vw;
     width: 60vw;
+    font-size: 2vw;
   }
 
-  .home-container {
-    width: 75%;
-    background-color:salmon;
+  .title-section {
+    background-color: #601010;
+    margin-top: 0;
+    border-top-style: solid;
+    border-top-width: 1vw;
+    border-top-color: #FAF5E5;
+    border-bottom-style: solid;
+    border-bottom-width: 1vw;
+    border-bottom-color: #FAF5E5;
+  }
+
+  .top-title-block {
+    display: flex;
+    margin-top: 0vw;
+    margin-left: 3.5vw;
+    margin-right: 3.5vw;
+    justify-content: space-between;
+    background-color: #601010;
+  }
+
+  .top-left-title-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #601010;
+  }
+
+  .team-title {
+    -webkit-text-stroke: .2vw black;
+    color: #FAF5E5;
+    font-family: 'Shrikhand';
+    font-size: 4vw;
+    margin-bottom: 0;
+    background-color: #601010;
+  }
+
+  .title-subhead {
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    height: 3vw;
+    background-color: #601010;
+  }
+
+  .subhead-location, .subhead-country {
+    -webkit-text-stroke: .12vw black;
+    color: #FAF5E5;
+    font-family: 'Shrikhand';
+    font-size: 1.5vw;
+    background-color: #601010;
+  }
+
+  .subhead-separator {
+    -webkit-text-stroke: .12vw black;
+    color: #FAF5E5;
+    font-family: 'Shrikhand';
+    font-size: 1.7vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    background-color: #601010;
+  }
+
+  .top-right-title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #601010;
+  }
+
+  .title-buttons {
+    -webkit-text-stroke: .08vw black;
+    color: #FAF5E5;
+    font-family: 'Shrikhand';
+    background-color: #601010;
+  }
+
+  .bottom-title-block {
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+    background-color: #601010;
+  }
+
+  .info-tabs {
+    -webkit-text-stroke: .09vw #FAF5E5;
+    color: #000000;
+    font-size: 1.5vw;
+    background-color: #601010;
+  }
+
+  .graph-section {
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-top-width: 1vw;
+    background-color: #332E2E;
+  }
+
+  .graphs {
+    height: 22vw;
+    width: 85vw;
+    background-color: #332E2E;
   }
   
   .hidden {
