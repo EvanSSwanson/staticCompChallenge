@@ -1,5 +1,5 @@
 *{
-    background-color: #FAF5E5;
+    background-color: #FFFCF2;
     box-sizing: border-box;
     font-family: 'DM Serif Display';
   }
@@ -14,6 +14,9 @@
     background-color:#332E2E;
     height: 100vw;
     width: 15%;
+    border-right-style: solid;
+    border-right-width: .2vw;
+    border-right-color: #000000;
   }
 
   .content {
@@ -43,7 +46,11 @@
 
   .nav-tab, .tab-header, .tab-line, .reset-button, .team-tab, .team-name {
     background-color:#332E2E;
-    color :#FAF5E5;
+    color :#FFFCF2;
+  }
+
+  .tab-header, .tab-line {
+    margin-left: 1vw;
   }
 
   header {
@@ -72,7 +79,7 @@
     width: 3vw;
   }
 
-  .icon-container, .hamburger:hover, .tickets:hover, .lotteries:hover, .options:hover {
+  .icon-container, .title-buttons, .info-tabs:hover {
     cursor: pointer;
   }
 
@@ -87,10 +94,10 @@
     margin-top: 0;
     border-top-style: solid;
     border-top-width: 1vw;
-    border-top-color: #FAF5E5;
+    border-top-color: #FFFCF2;
     border-bottom-style: solid;
     border-bottom-width: 1vw;
-    border-bottom-color: #FAF5E5;
+    border-bottom-color: #FFFCF2;
   }
 
   .top-title-block {
@@ -110,7 +117,7 @@
 
   .team-title {
     -webkit-text-stroke: .2vw black;
-    color: #FAF5E5;
+    color: #FFFCF2;
     font-family: 'Shrikhand';
     font-size: 4vw;
     margin-bottom: 0;
@@ -127,7 +134,7 @@
 
   .subhead-location, .subhead-country {
     -webkit-text-stroke: .12vw black;
-    color: #FAF5E5;
+    color: #FFFCF2;
     font-family: 'Shrikhand';
     font-size: 1.5vw;
     background-color: #601010;
@@ -135,7 +142,7 @@
 
   .subhead-separator {
     -webkit-text-stroke: .12vw black;
-    color: #FAF5E5;
+    color: #FFFCF2;
     font-family: 'Shrikhand';
     font-size: 1.7vw;
     margin-left: 1vw;
@@ -152,23 +159,37 @@
 
   .title-buttons {
     -webkit-text-stroke: .08vw black;
-    color: #FAF5E5;
+    color: #FFFCF2;
     font-family: 'Shrikhand';
     background-color: #601010;
   }
 
   .bottom-title-block {
     display: flex;
-    justify-content: center;
-    margin-top: 1vw;
+    justify-content: space-evenly;
+    align-items: flex-end;
     background-color: #601010;
   }
 
   .info-tabs {
-    -webkit-text-stroke: .09vw #FAF5E5;
+    -webkit-text-stroke: .09vw #FFFCF2;
     color: #000000;
     font-size: 1.5vw;
     background-color: #601010;
+    margin-bottom: 0;
+    border: none;
+  }
+
+  #summary {
+    -webkit-text-stroke: 0vw #FFFCF2;
+    color: #FFFCF2;
+    background-color: #000000;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-color: #000000;
+    border-left-width: .5vw;
+    border-right-width: .5vw;
+    border-radius: 3vw;
   }
 
   .graph-section {
@@ -182,6 +203,28 @@
     height: 22vw;
     width: 85vw;
     background-color: #332E2E;
+  }
+
+  .description-section {
+    display: flex;
+    flex-direction: row;
+    height: 52.6vw;
+  }
+
+  .description-left {
+    width: 60%;
+    border-style: solid;
+    border-width: 3vw;
+    border-color:#601010;
+    border-right-width:1.5vw;
+  }
+
+  .description-right {
+    width: 40%;
+    border-style: solid;
+    border-width: 3vw;
+    border-color:#601010;
+    border-left-width: 1.5vw;
   }
   
   .hidden {
