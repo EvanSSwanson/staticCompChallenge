@@ -2,17 +2,24 @@
 <html lang="en" dir="ltr">
   <head>
     <link href="styles.css" type="text/css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Quicksand&family=Shrikhand&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>NHL Team Stats</title>
   </head>
   <body>
     <nav>
+        <div class="team-tab">
+          <image class="team-logo" src="./images/Calgary_Logo.png" alt="Calgary Flames logo">
+            <p class="team-name">Calgary Flames</p>
+
+        </div>
         <div class='nav-tab' id='nav-tab1'>
             <h2 class="tab-header" id="tab1-header">tab1</h2>
             <p class="tab-line" id="tab1-line1">Stuff</p>
             <p class="tab-line" id="tab1-line2">Stuff</p>
             <p class="tab-line" id="tab1-line3">Stuff</p>
+            <p class="tab-line" id="tab1-line4">Stuff</p>
+            <p class="tab-line" id="tab1-line5">Stuff</p>
           </div>
           <div class='nav-tab' id='nav-tab2'>
             <h2 class="tab-header" id="tab2-header">tab2</h2>
@@ -26,37 +33,163 @@
             <p class="tab-line" id="tab3-line2">Stuff</p>
             <p class="tab-line" id="tab3-line3">Stuff</p>
           </div>
-          <button class='reset-button'>Reset Stuff</button>
     </nav>
-    <section class="page-container">
+    <main>
         <header>
-            <img class='hamburger-button' src='./images/hamburger.png' alt='menu button'>
-            <input class="searchbar" type="text" placeholder="Search..">
-            <!-- butt1 -->
-            <!-- butt2 -->
-            <!-- butt3 -->
+          <div class="icon-container">
+            <image class="hamburger" src="./images/hamburger.png" alt="menu button">
+          </div>
+          <input class="searchbar" type="text" placeholder=" Search teams, players...">
+          <div class="icon-container">
+            <image class="tickets" src="./images/ticket.png" alt="tickets button"></image>
+          </div>
+          <div class="icon-container">
+            <image class="lotteries" src="./images/bingo.png" alt="lotteries button"></image>
+          </div>
+          <div class="icon-container">
+            <image class="options" src="./images/grid.png" alt="options button"></image>
+          </div>
         </header>
-        <main>
-          <section class="view home-view">
-            <!-- <section class="left-container">
-                <div class='player-tab' id='player1-tab'>
-                    <h2 class='player-header' id='player1-header'>P1: </h2>
-                    <p class='player-wins' id='player1-wins'>Wins: </p>
+          <section class="content">
+            <section class="title-section">
+              <section class="top-title-block">
+                <div class="top-left-title-block">
+                    <p class="team-title">The Calgary Flames</p>
+                  <div class="title-subhead">
+                    <p class="subhead-location">Calgary, AL</p>
+                    <p class="subhead-separator">:</p>
+                    <p class="subhead-country">CANADA</p>
                   </div>
-                  <div class='player-tab' id='player2-tab'>
-                    <h2 class='player-header' id='player2-header'>P2: </h2>
-                    <p class='player-wins' id='player2-wins'>Wins: </p>
+                </div>
+                <div class="top-right-title-block">
+                  <p class="title-buttons">SAVE, bla, bla, bla</p>
+                </div>
+              </section>
+              <section class="bottom-title-block">
+                <button class="info-tabs" id="summary">SUMMARY</button>
+                <button class="info-tabs">SCHEDULE</button>
+                <button class="info-tabs">CURRENT ROSTER</button>
+                <button class="info-tabs">RETIRED NUMBERS</button>
+                <button class="info-tabs">HISTORY</button>
+                <button class="info-tabs">ACCOLADES</button>
+              </section>
+            </section>
+            <section class="graph-section">
+              <image class="graphs" src="./images/graphs.png" alt="stat graphs"></image>
+            </section>
+            <section class="description-section">
+              <section class="description-left">
+                <div class="box" id="box1">
+                  <div class="box-left">
+                    <p class="left-text">Year Founded</p>
                   </div>
-                  <button class='reset-button'>Reset Wins</button>
-                  <img class='classic-diagram' src='./assets/classic-diagram.png' alt='win condition diagram'>
-                  <img class='elemental-diagram hidden' src='./assets/elemental-diagram.png' alt='win condition diagram (elemental)'>
-            </section> -->
-            <section class="home-container">
-                <p>ok</p>
+                  <div class="box-right">
+                    <p class="right-text">1972</p>
+                  </div>
+                </div>
+                <div class="box" id="box2">
+                  <div class="box-left">
+                    <p class="left-text">Conference</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">Western</p>
+                  </div>
+                </div>
+                <div class="box" id="box3">
+                  <div class="box-left">
+                    <p class="left-text">Division</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">Pacific</p>
+                  </div>
+                </div>
+                <div class="box" id="box4">
+                  <div class="box-left">
+                    <p class="left-text">Last Season</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">Semi-Finals</p>
+                  </div>
+                </div>
+                <div class="box" id="box5">
+                  <div class="box-left">
+                    <p class="left-text">Current Captain</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">Vacant</p>
+                  </div>
+                </div>
+                <div class="box" id="box6">
+                  <div class="box-left">
+                    <p class="left-text">Head Coach</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">Darryl Sutter</p>
+                  </div>
+                </div>
+                <div class="box" id="box7">
+                  <div class="box-left">
+                    <p class="left-text">Stanley Cups</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">1 (88-89)</p>
+                  </div>
+                </div>
+                <div class="box" id="box8">
+                  <div class="box-left">
+                    <p class="left-text">About</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="description-text">The Flames were founded during the NHL's expansion era in the 70's. Originating in Atlanta, Georgia, the Flames were not very successful during their time in the Peach State. This lack of success, plus an overall lack of pre-existing hockey culture in the South, led the Flames to garner little support from the city. Thus, in 1980, the team relocated to hockey-crazy Calgary, Alberta.</p>
+                  </div>
+                </div>
+                <div class="box" id="box9">
+                  <div class="box-left">
+                    <p class="left-text">AHL Affiliate</p>
+                  </div>
+                  <div class="box-right">
+                    <p class="right-text">Calgary Wranglers</p>
+                  </div>
+                </div>
+              </section>
+              <section class="description-right">
+                <div class="social-link" id="facebook-link">
+                  <p class="social-text">Share on Facebook</p>
+                </div>
+                <div class="social-link" id="twitter-link">
+                  <p class="social-text">Tweet this Page</p>
+                </div>
+                <div class="social-link" id="telegraph-link">
+                  <p class="social-text">Send via Telegraph</p>
+                </div>
+                <section class="page-link">
+                  <p class="link-text">Link to this Page</p>
+                  <p class="text-extrapolation">I mean yeah so this is the link; not really sure what else to add</p>
+                  <div class="link-box">
+                    <div class="link-box-left">
+                      <p class="copy-text">https://evansswanson.github.io/s...</p>
+                    </div>
+                    <div class="link-box-right">
+                      <p class="copy">Copy</p>
+                    </div>
+                  </div>
+                </section>
+                <section class="another-link">
+                  <p class="another-text">Running out of things to link to...</p>
+                  <p class="text-extrapolation">hhhhhhhhhhh hhhhhhhhhhhhhh hhhhhhhhhhhhh</p>
+                  <div class="link-box">
+                    <div class="link-box-left">
+                      <p class="copy-text">hhhhhhhhhhhhhhhhhhhhhhhhh...</p>
+                    </div>
+                    <div class="link-box-right">
+                      <p class="copy">Copy</p>
+                    </div>
+                  </div>
+                </section>
+                </div>
+              </section>
             </section>
           </section>
         </main>
-        
-    </section>
   </body>
 </html>
