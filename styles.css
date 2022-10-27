@@ -37,8 +37,8 @@
 
   .team-logo {
     margin-top: 2vw;
-    height: 10vw;
-    width: 10vw;
+    height: 8vw;
+    width: 8vw;
     border-radius: 10vw;
   }
 
@@ -89,12 +89,15 @@
 
   .searchbar {
     height: 6vw;
-    width: 60vw;
+    width: 60.1vw;
     font-size: 2vw;
+    border-style: solid;
+    border-width: .2vw;
+    border-color: #000000;
   }
 
   .title-section {
-    background-color: #601010;
+    background-image: url('./images/ice-background.jpg');
     margin-top: 0;
     border-top-style: solid;
     border-top-width: 1vw;
@@ -110,13 +113,13 @@
     margin-left: 3.5vw;
     margin-right: 3.5vw;
     justify-content: space-between;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .top-left-title-block {
     display: flex;
     flex-direction: column;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .team-title {
@@ -125,7 +128,7 @@
     font-family: 'Shrikhand';
     font-size: 4vw;
     margin-bottom: 0;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .title-subhead {
@@ -133,7 +136,7 @@
     align-items: center;
     margin-top: 0;
     height: 3vw;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .subhead-location, .subhead-country {
@@ -141,7 +144,7 @@
     color: #FFFCF2;
     font-family: 'Shrikhand';
     font-size: 1.5vw;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .subhead-separator {
@@ -151,28 +154,28 @@
     font-size: 1.7vw;
     margin-left: 1vw;
     margin-right: 1vw;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .top-right-title-block {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .title-buttons {
     -webkit-text-stroke: .08vw black;
     color: #FFFCF2;
     font-family: 'Shrikhand';
-    background-color: #601010;
+    background-color: transparent;
   }
 
   .bottom-title-block {
     display: flex;
     justify-content: space-evenly;
     align-items: flex-end;
-    background-color: #601010;
+    background-color: transparent;
     margin-right: 10vw;
   }
 
@@ -180,7 +183,7 @@
     -webkit-text-stroke: .09vw #FFFCF2;
     color: #000000;
     font-size: 1.5vw;
-    background-color: #601010;
+    background-color: transparent;
     margin-bottom: 0;
     border: none;
   }
@@ -275,4 +278,103 @@
     border-width: 3vw;
     border-color:#601010;
     border-left-width: 1.5vw;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    height: 5vw;
+    margin: 2.5vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    border-radius: .4vw;
+    cursor: pointer;
+  }
+
+  .social-text {
+    margin-left: 1vw;
+    color: #ffffff;
+    font-family: 'Quicksand';
+  }
+
+  #facebook-link, #facebook-link>.social-text {
+    background-color: #495FCB;
+  }
+
+  #twitter-link, #twitter-link>.social-text {
+    background-color: #5FCFFF;
+  }
+
+  #telegraph-link, #telegraph-link>.social-text {
+    background-color: #8FA8B2;
+  }
+
+  .page-link, .another-link {
+    display: flex;
+    flex-direction: column;
+    height: 11vw;
+    margin: 2.5vw;
+    margin-top: 0vw;
+    margin-bottom: 1vw;
+  }
+
+  .another-link {
+    border-top-style: solid;
+    border-top-width: .2vw;
+    border-top-color: #000000;
+  }
+
+  .another-text {
+    margin: .5vw;
+    margin-top: 1vw;
+  }
+
+  .link-text {
+    margin: .5vw;
+    margin-top: 0;
+  }
+
+  .text-extrapolation {
+    margin: .5vw;
+    font-family: 'Quicksand';
+  }
+
+  .link-box {
+    display: flex;
+    margin-top: 1vw;
+    height: 2.8vw;
+  }
+
+  .link-box-left {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    border-style: solid;
+    border-width: .2vw;
+    border-color: #CFB65C;
+    border-top-left-radius: .4vw;
+    border-bottom-left-radius: .4vw;
+  }
+
+  .copy-text {
+    margin-left: 1vw;
+  }
+
+
+
+  .link-box-right {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    background-color: #CFB65C;
+    border-style: solid;
+    border-width: .2vw;
+    border-color: #CFB65C;
+    border-top-right-radius: .4vw;
+    border-bottom-right-radius: .4vw;
+    cursor: pointer;
+  }
+  .copy {
+    margin-left: .6vw;
+    background-color: #CFB65C;
   }
