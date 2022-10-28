@@ -28,3 +28,10 @@ This project was completed during my third week of Mod 2 at Turing. It was our s
 
 ### Challenges:
 - Creating a comp is a rewarding feeling; but it can be tedious. Flexbox is no doubt a helpful tool, but by the time you reach HTML-container-inception, the brain begins to give out on you.
+
+### Attributions:
+via [Flaticon](https://www.flaticon.com/):
+bingo.png = Smashicons
+grid.png = Kiranshastry
+hamburger.png = azmianshori
+ticket.png = Aranagraphics
