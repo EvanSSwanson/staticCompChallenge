@@ -57,6 +57,10 @@
     margin-left: 1vw;
   }
 
+  .tab-line {
+    font-family: 'Quicksand';
+  }
+
   header {
     display: flex;
     align-items: center;
@@ -164,10 +168,25 @@
     background-color: transparent;
   }
 
+
   .title-buttons {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+  }
+
+  .classification {
     -webkit-text-stroke: .08vw black;
     color: #FFFCF2;
     font-family: 'Shrikhand';
+    background-color: transparent;
+    margin-right: 1vw;
+  }
+
+  .spec-logo {
+    height: 2.5vw;
+    width: 2.5vw;
+    margin: .3vw;
     background-color: transparent;
   }
 
