@@ -59,6 +59,7 @@
 
   .tab-line {
     font-family: 'Quicksand';
+    cursor: pointer;
   }
 
   header {
@@ -87,7 +88,7 @@
     width: 3vw;
   }
 
-  .icon-container, .title-buttons, .info-tabs:hover {
+  .icon-container, .spec-logo, .info-tabs:hover {
     cursor: pointer;
   }
 
