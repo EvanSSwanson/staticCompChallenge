@@ -31,7 +31,8 @@ This project was completed during my third week of Mod 2 at Turing. It was our s
 
 ### Attributions:
 via [Flaticon](https://www.flaticon.com/):
-bingo.png = Smashicons
-grid.png = Kiranshastry
-hamburger.png = azmianshori
-ticket.png = Aranagraphics
+
+- bingo.png = Smashicons
+- grid.png = Kiranshastry
+- hamburger.png = azmianshori
+- ticket.png = Aranagraphics
